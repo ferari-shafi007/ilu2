@@ -1,0 +1,124 @@
+/* font-family: 'Pacifico', cursive;
+font-family: 'Gochi Hand', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+h1, h2, h3{
+    /* font-family: 'Gochi Hand', cursive; */
+    font-family: 'Special Elite', cursive;
+}
+body{
+    text-align: center;
+    justify-content: center;
+    padding: 0 10%;
+    background: #f2482e;
+    background: -moz-linear-gradient(left,  #f2482e 1%, #ff435c 35%, #ff2776 65%, #ee01ff 100%, #5002f7 100%);
+    background: -webkit-linear-gradient(left,  #f2482e 1%,#ff435c 35%,#ff2776 65%,#ee01ff 100%,#5002f7 100%);
+    background: linear-gradient(to right,  #f2482e 1%,#ff435c 35%,#ff2776 65%,#ee01ff 100%,#5002f7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2482e', endColorstr='#5002f7',GradientType=1 );
+    
+}
+.logo{
+    width: 6rem;
+}
+.navbar{
+    padding: 3% 1rem;
+    
+}
+.navbar-brand{
+    font-family: 'Special Elite', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(0, 80, 20) !important;
+}
+
+.content{
+    box-shadow: 0px 0px  20px #55f;
+}
+.nav-link{
+    font-size: 1.2rem;
+    color: #9dffa5 !important;
+}
+/* titel section */
+#titel{
+    background-image: url("/img/bg-primary.jpg");
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+    color: #ddd;
+}
+.brand-name{
+    padding: 15% 0 5% 0;
+    font-size: 5rem;
+}
+.brand-des{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+.titel-btn{
+    margin: 10% auto 15% auto;
+}
+
+/* about */
+
+.about{
+    padding: 7% 0 0 0;
+    margin: auto;
+    color: #ddd;
+    background-color: #1117;
+}
+.about-head{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+.about-text{
+    padding: 3%;
+}
+
+/* work */
+#work{
+    background-image: url("/img/bg-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: auto;
+    padding: 7rem 0 0 0;
+    color: #00be10;
+}
+.work{
+    background-color: #fffc;
+}
+.portfolio{
+    text-align: center;
+    justify-content: center;
+    padding: 2rem 3rem;
+    
+}
+.portfolio-item {
+    cursor: pointer;
+    max-width: 25rem;
+    margin-bottom: 30px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+   
+  }
+
+  .footer{
+      padding: 5% 0 0 0;
+      color: #ddd;
+  
+    }
+    .copyright{
+        font-style: none;
+        color: #ddd;
+    }
+    .copyright:hover{
+        font-style: none;
+        color: #ddd;
+    }
